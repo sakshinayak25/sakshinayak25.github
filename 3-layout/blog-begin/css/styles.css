@@ -1,0 +1,129 @@
+html {
+    box-sizing: border-box;
+    margin:7em;
+    margin-top: .5em;
+    padding:0em;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family:'Courier New', Courier, monospace;
+    //background-color: black;
+}
+
+.float1{
+    float:left;
+    clear:none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+    
+}
+h1 {
+    color:whitesmoke;
+    margin-bottom: -1px;
+    font-size: 3em;
+    margin-left: 5px;
+    text-shadow: 0 0 .1em cyan;
+   
+}
+header div{
+    color:crimson;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+  a {
+    
+    padding:5px;
+    color:rgb(81, 93, 105);
+    text-decoration: none;
+    margin-bottom: 3em;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+ nav a:hover {
+  
+    color:#11a636;
+    background-color:white;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+    
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: .1rem brown solid;
+    padding: 5px;
+    
+}
+footer ul{
+        list-style-type:none;
+       
+    
+}
+
+footer li{
+    display: inline-block;
+    margin-inline-end: -1rem;
+}
+    nav ul{
+        list-style-type:none;
+        border-bottom: 1px brown solid;
+        border-top: 1px brown solid;
+        text-align: center;
+       margin-right: 0rem;
+        
+    } 
+    nav li{
+        display: inline-block;
+        margin: 7px;
+    
+        
+
+    
+    }
+    
+  section img{
+      
+      border-bottom-left-radius: 1em;
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em;
+      border-bottom-right-radius: 1em;
+      margin-right: 15px;
+      margin-bottom: 10px;
+      
+  }
+ section a{
+     color:rgb(219, 25, 161);
+ }
+
+
+  article{
+      margin: 3em;
+      padding-left: 5px;
+      padding:10px;
+      margin-top: 5px;
+      margin-left: 5px;
+
+  }
+  header{
+      margin:.5em 3em 5em 20em;
+  }
+  section{
+      border-bottom: .1rem rgb(248, 85, 35) solid;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      color:cadetblue;
+  }
+   
+  
